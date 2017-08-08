@@ -1,0 +1,25 @@
+Package: qtl2bioc
+Version: 0.5-1
+Date: 2017-08-08
+Title: Connect to Bioconductor for QTL Experiments
+Description: Functions to connect to genome databases via
+    Bioconductor, such as to obtain gene annotation information. Part
+    of R/qtl2, a reimplementation of the R/qtl package to better
+    handle high-dimensional data and complex cross designs.
+Author: Karl W Broman <kbroman@biostat.wisc.edu>
+Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+Depends:
+    R (>= 3.1.0)
+Imports:
+    GenomicRanges,
+    AnnotationHub
+Suggests:
+    testthat,
+    devtools,
+    roxygen2
+License: GPL-3
+URL: http://kbroman.org/qtl2, https://github.com/rqtl/qtl2bioc
+BugReports: https://github.com/rqtl/qtl2bioc/issues
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 6.0.1
