@@ -4,26 +4,9 @@
 
 [Karl Broman](http://kbroman.org)
 
-[R/qtl2](http://kbroman.org/qtl2) (aka qtl2) is a reimplementation of
-the QTL analysis software [R/qtl](https://rqtl.org), to better handle
-high-dimensional data and complex cross designs. It is split into the
-multiple packages, including
-[qtl2geno](https://github.com/rqtl/qtl2geno) (for calculating genotype
-probabilities, imputations, and genetic maps),
-[qtl2scan](https://github.com/rqtl/qtl2scan) (for QTL genome scans and
-related calculations), and
-[qtl2plot](https://github.com/rqtl/qtl2plot) (for data visualization).
-A further package, [qtl2convert](https://github.com/rqtl/qtl2convert),
-contains functions for converting data among the R/qtl2,
-[DOQTL](https://www.bioconductor.org/packages/release/bioc/html/DOQTL.html),
-and [R/qtl](https://rqtl.org) formats, for example to convert genotype
-probabilities produced by DOQTL to the format needed by qtl2scan, or
-to convert qtl2scan results to the format produced by `scanone` in
-R/qtl, so that they may be graphed with the R/qtl functions.
-
-The [qtl2db](https://github.com/rqtl/qtl2db) package is for connecting
-to genome databases. The present package, [qtl2bioc](https://github.com/rqtl/qtl2bioc),
-has related functionality for using
+[qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](http://kbroman.org/qtl2).
+It is related to the [qtl2db](https://github.com/rqtl/qtl2db) package
+but uses
 [Bioconductor](https://bioconductor.org) facilities to obtain
 the set of mouse genes in a region. While the functions within
 [qtl2bioc](https://github.com/rqtl/qtl2bioc) could logically be
