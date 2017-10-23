@@ -19,24 +19,29 @@ interested in making use of the
 
 ### Installation
 
-See the [R/qtl2 webpage](http://kbroman.org/qtl2/) for instructions on
+Make sure you have the latest version of [R (3.4.2)](https://cran.r-project.org),
+and see the [R/qtl2 webpage](http://kbroman.org/qtl2/) for instructions on
 installation of the main R/qtl2 packages.
 
 To install the present [qtl2bioc](https://github.com/rqtl/qtl2bioc)
-package, you'll first need to install the Bioconductor package
-[AnnotationHub](https://bioconductor.org/packages/release/bioc/html/AnnotationHub.html).:
+package, you'll first need to install the Bioconductor packages
+[GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) and
+[AnnotationHub](https://bioconductor.org/packages/release/bioc/html/AnnotationHub.html):
 
-    source("http://bioconductor.org/biocLite.R")
+    source("https://bioconductor.org/biocLite.R")
     biocLite(c("GenomicRanges", "AnnotationHub"))
 
-Next install [devtools](https://github.com/hadley/devtools):
+Then, install R/qtl2bioc from the mini-CRAN at
+[rqtl.org](https://rqtl.org):
+
+    install.packages("qtl2bioc", repos="https://rqtl.org/qtl2cran")
+
+Alternatively, install [devtools](https://github.com/hadley/devtools)
+and then install the source R/qtl2bioc package from its
+[Github repository](https://github.com/rqtl/qtl2bioc) using `devtools::install_github()`.
 
     install.packages("devtools")
-
-Finally, install [R/qtl2bioc] using `devtools::install_github()`.
-
-    library(devtools)
-    install_github("rqtl/qtl2bioc")
+    devtools::install_github("rqtl/qtl2bioc")
 
 ---
 
