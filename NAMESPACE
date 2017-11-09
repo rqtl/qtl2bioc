@@ -2,9 +2,9 @@
 
 export(create_ensembl_query_func)
 export(grab_ensembl)
+importClassesFrom(GenomicRanges,GRanges)
 importFrom(AnnotationHub,AnnotationHub)
 importFrom(AnnotationHub,query)
 importFrom(GenomicRanges,end)
 importFrom(GenomicRanges,seqnames)
 importFrom(GenomicRanges,start)
-importFrom(GenomicRanges,subset)

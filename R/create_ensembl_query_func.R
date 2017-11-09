@@ -22,7 +22,8 @@
 #'     should have `start` and `stop` columns in Mbp.
 #'
 #' @export
-#' @importFrom GenomicRanges subset seqnames start end
+#' @importFrom GenomicRanges seqnames start end
+#' @importClassesFrom GenomicRanges GRanges
 #'
 #' @examples
 #' # small version of ensembl data
@@ -49,7 +50,7 @@ create_ensembl_query_func <-
              (end(ensembl) >= start & end(ensembl) <= end) |
              (start(ensembl) <= start & end(ensembl) >= end))
 
-        result <- subset(ensembl, selection)
+        result <- subset(ensembl, as.logical(selection))
 
         # convert to data frame
         result <- data.frame(result, stringsAsFactors=FALSE)
