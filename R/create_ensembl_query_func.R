@@ -4,23 +4,26 @@
 #' ensembl gene annotations and return a data frame with gene
 #' information for a selected region.
 #'
-#' @param ensembl Ensembl gene annotations as a GenomicRanges object.
-#' @param full_genes_only If TRUE, filter by \code{type=="gene"}
+#' @md
 #'
-#' @return Function with three arguments, \code{chr}, \code{start},
-#'     and \code{end}, which returns a data frame with the genes
-#'     overlapping that region, with \code{start} and \code{end} being
+#' @param ensembl Ensembl gene annotations as a GenomicRanges object.
+#' @param full_genes_only If TRUE, filter by `type=="gene"`
+#'
+#' @return Function with three arguments, `chr`, `start`,
+#'     and `end`, which returns a data frame with the genes
+#'     overlapping that region, with `start` and `end` being
 #'     in Mbp. The output should contain at least the columns
-#'     \code{Name}, \code{chr}, \code{start}, and \code{stop}, the
+#'     `Name`, `chr`, `start`, and `stop`, the
 #'     latter two being positions in Mbp.
 #'
 #' @details Note that this function assumes that the database has
-#'     \code{start} and \code{end} fields that are in basepairs, but
+#'     `start` and `end` fields that are in basepairs, but
 #'     the selection uses positions in Mbp, and the output data frame
-#'     should have \code{start} and \code{stop} columns in Mbp.
+#'     should have `start` and `stop` columns in Mbp.
 #'
 #' @export
-#' @importFrom GenomicRanges subset seqnames start end
+#' @importFrom GenomicRanges seqnames start end
+#' @importClassesFrom GenomicRanges GRanges
 #'
 #' @examples
 #' # small version of ensembl data
@@ -47,7 +50,7 @@ create_ensembl_query_func <-
              (end(ensembl) >= start & end(ensembl) <= end) |
              (start(ensembl) <= start & end(ensembl) >= end))
 
-        result <- subset(ensembl, selection)
+        result <- subset(ensembl, as.logical(selection))
 
         # convert to data frame
         result <- data.frame(result, stringsAsFactors=FALSE)
