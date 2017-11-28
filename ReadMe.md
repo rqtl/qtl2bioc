@@ -5,12 +5,11 @@
 [Karl Broman](http://kbroman.org)
 
 [qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](http://kbroman.org/qtl2).
-It is related to the [qtl2db](https://github.com/rqtl/qtl2db) package
-but uses
+It uses
 [Bioconductor](https://bioconductor.org) facilities to obtain
 the set of mouse genes in a region. While the functions within
 [qtl2bioc](https://github.com/rqtl/qtl2bioc) could logically be
-included within [qtl2db](https://github.com/rqtl/qtl2db), we've kept
+included within [qtl2](https://github.com/rqtl/qtl2), we've kept
 it separate in order to reduce package dependencies for those not
 interested in making use of the
 [Bioconductor](https://bioconductor.org) features.
@@ -21,7 +20,7 @@ interested in making use of the
 
 Make sure you have the latest version of [R (3.4.2)](https://cran.r-project.org),
 and see the [R/qtl2 webpage](http://kbroman.org/qtl2/) for instructions on
-installation of the main R/qtl2 packages.
+installation of the main R/qtl2 package.
 
 To install the present [qtl2bioc](https://github.com/rqtl/qtl2bioc)
 package, you'll first need to install the Bioconductor packages
