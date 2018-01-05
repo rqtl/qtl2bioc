@@ -18,7 +18,7 @@ interested in making use of the
 
 ### Installation
 
-Make sure you have the latest version of [R (3.4.2)](https://cran.r-project.org),
+Make sure you have the latest version of [R (3.4.3)](https://cran.r-project.org),
 and see the [R/qtl2 webpage](http://kbroman.org/qtl2/) for instructions on
 installation of the main R/qtl2 package.
 
