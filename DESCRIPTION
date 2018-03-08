@@ -22,4 +22,5 @@ URL: http://kbroman.org/qtl2, https://github.com/rqtl/qtl2bioc
 BugReports: https://github.com/rqtl/qtl2bioc/issues
 LazyData: true
 Encoding: UTF-8
+ByteCompile: true
 RoxygenNote: 6.0.1
