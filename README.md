@@ -56,4 +56,4 @@ grab gene records for a given region.
 
 #### License
 
-[Licensed](License.md) under [GPL-3](https://www.r-project.org/Licenses/GPL-3).
+[Licensed](LICENSE.md) under [GPL-3](https://www.r-project.org/Licenses/GPL-3).
