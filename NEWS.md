@@ -1,3 +1,8 @@
+## qtl2bioc 0.16 (2018-07-23)
+
+- No actual changes; just keeping in sync with the qtl2 package.
+
+
 ## qtl2bioc 0.14 (2018-03-09)
 
 - No actual changes; just keeping in sync with the qtl2 package.
