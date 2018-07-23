@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/rqtl/qtl2bioc.svg?branch=master)](https://travis-ci.org/rqtl/qtl2bioc)
 
-[Karl Broman](http://kbroman.org)
+[Karl Broman](https://kbroman.org)
 
-[qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](http://kbroman.org/qtl2).
+[qtl2bioc](https://github.com/rqtl/qtl2bioc) is part of [R/qtl2](https://kbroman.org/qtl2).
 It uses
 [Bioconductor](https://bioconductor.org) facilities to obtain
 the set of mouse genes in a region. While the functions within
@@ -18,8 +18,8 @@ interested in making use of the
 
 ### Installation
 
-Make sure you have the latest version of [R (3.4.4)](https://cran.r-project.org),
-and see the [R/qtl2 webpage](http://kbroman.org/qtl2/) for instructions on
+Make sure you have the latest version of [R](https://cran.r-project.org),
+and see the [R/qtl2 webpage](https://kbroman.org/qtl2/) for instructions on
 installation of the main R/qtl2 package.
 
 To install the present [qtl2bioc](https://github.com/rqtl/qtl2bioc)
@@ -31,9 +31,9 @@ package, you'll first need to install the Bioconductor packages
     biocLite(c("GenomicRanges", "AnnotationHub"))
 
 Then, install R/qtl2bioc from the mini-CRAN at
-[rqtl.org](https://rqtl.org):
+[rqtl.org](http://rqtl.org):
 
-    install.packages("qtl2bioc", repos="https://rqtl.org/qtl2cran")
+    install.packages("qtl2bioc", repos="http://rqtl.org/qtl2cran")
 
 Alternatively, install [devtools](https://github.com/hadley/devtools)
 and then install the source R/qtl2bioc package from its
