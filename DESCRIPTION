@@ -6,8 +6,8 @@ Description: Functions to connect to genome databases via
     Bioconductor, such as to obtain gene annotation information. Part
     of R/qtl2, a reimplementation of the R/qtl package to better
     handle high-dimensional data and complex cross designs.
-Author: Karl W Broman <kbroman@biostat.wisc.edu>
-Maintainer: Karl W Broman <kbroman@biostat.wisc.edu>
+Author: Karl W Broman <broman@wisc.edu>
+Maintainer: Karl W Broman <broman@wisc.edu>
 Depends:
     R (>= 3.1.0)
 Imports:
