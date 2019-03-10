@@ -7,9 +7,9 @@
 \title{qtl2bioc: Connect to Bioconductor for QTL Experiments}
 \description{
 Functions to connect to genome databases via
-Bioconductor, such as to obtain gene annotation information. Part
-of R/qtl2, a reimplementation of the R/qtl package to better
-handle high-dimensional data and complex cross designs.
+    Bioconductor, such as to obtain gene annotation information. Part
+    of R/qtl2, a reimplementation of the R/qtl package to better
+    handle high-dimensional data and complex cross designs.
 }
 \section{Vignettes}{
 

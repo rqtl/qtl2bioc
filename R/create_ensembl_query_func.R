@@ -4,8 +4,6 @@
 #' ensembl gene annotations and return a data frame with gene
 #' information for a selected region.
 #'
-#' @md
-#'
 #' @param ensembl Ensembl gene annotations as a GenomicRanges object.
 #' @param full_genes_only If TRUE, filter by `type=="gene"`
 #'

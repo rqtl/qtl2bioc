@@ -2,8 +2,6 @@
 #'
 #' Grab ensembl gene annotations from the Bioconductor AnnotationHub.
 #'
-#' @md
-#'
 #' @param organism Character string with name of organism
 #' @param set Character string with name of dataset
 #'
