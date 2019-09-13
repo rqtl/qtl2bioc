@@ -33,4 +33,4 @@
 ### Bug fixes
 
 - Small change to `create_ensembl_query_func()` to get it to work with
-  the latest version of [GenomicRanges](http://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).
+  the latest version of [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html).

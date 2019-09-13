@@ -31,9 +31,9 @@ package, you'll first need to install the Bioconductor packages
     biocLite(c("GenomicRanges", "AnnotationHub"))
 
 Then, install R/qtl2bioc from the mini-CRAN at
-[rqtl.org](http://rqtl.org):
+[rqtl.org](https://rqtl.org):
 
-    install.packages("qtl2bioc", repos="http://rqtl.org/qtl2cran")
+    install.packages("qtl2bioc", repos="https://rqtl.org/qtl2cran")
 
 Alternatively, install [devtools](https://github.com/hadley/devtools)
 and then install the source R/qtl2bioc package from its
@@ -48,7 +48,7 @@ and then install the source R/qtl2bioc package from its
 
 The [R/qtl2bioc](https://github.com/rqtl/qtl2bioc) package contains two
 key functions, `grab_ensembl()`, for downloading the
-[Ensembl](http://ensembl.org) gene annotations, and
+[Ensembl](https://ensembl.org) gene annotations, and
 `create_ensembl_query_func()`, for creating a query function to
 grab gene records for a given region.
 
