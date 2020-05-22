@@ -1,3 +1,8 @@
+## qtl2bioc 0.22 (2020-05-21)
+
+- No actual changes; just keeping in sync with the qtl2 package.
+
+
 ## qtl2bioc 0.20 (2019-06-03)
 
 - Use Markdown for function documentation, throughout

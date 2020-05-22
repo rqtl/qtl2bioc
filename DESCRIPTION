@@ -1,6 +1,6 @@
 Package: qtl2bioc
-Version: 0.20
-Date: 2019-06-03
+Version: 0.22
+Date: 2020-05-21
 Title: Connect to Bioconductor for QTL Experiments
 Description: Functions to connect to genome databases via
     Bioconductor, such as to obtain gene annotation information. Part
