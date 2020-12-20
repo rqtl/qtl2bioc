@@ -27,3 +27,4 @@ Encoding: UTF-8
 ByteCompile: true
 RoxygenNote: 7.1.1
 Roxygen: list(markdown=TRUE)
+Remotes: bioc::release/GenomicRanges, bioc::release/AnnotationHub
