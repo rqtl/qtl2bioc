@@ -1,6 +1,6 @@
 ### R/qtl2bioc
 
-[![Build Status](https://travis-ci.org/rqtl/qtl2bioc.svg?branch=master)](https://travis-ci.org/rqtl/qtl2bioc)
+[![R-CMD-check](https://github.com/rqtl/qtl2bioc/workflows/R-CMD-check/badge.svg)](https://github.com/rqtl/qtl2bioc/actions)
 
 [Karl Broman](https://kbroman.org)
 
