@@ -26,14 +26,14 @@ the Bioconductor packages
     install.packages("BiocManager")
     BiocManager::install(c("GenomicRanges", "AnnotationHub"))
 
-Next, install the [devtools package](https://devtools.r-lib.org):
+Next, install the [remotes package](https://remotes.r-lib.org):
 
-    install.packages("devtools")
+    install.packages("remotes")
 
 Finally, install the R/qtl2bioc package from its
 [Github repository](https://github.com/rqtl/qtl2bioc).
 
-    devtools::install_github("rqtl/qtl2bioc")
+    remotes::install_github("rqtl/qtl2bioc")
 
 ---
 
